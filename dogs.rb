@@ -29,28 +29,28 @@ def sum_of_all_dog_name_lengths(dogs)
 end
 
 def dogs_with_long_names(dogs)
-  
+
 end
 
-
-def check(thing_to_check, it_passed)
+def check(method_to_check, it_passed)
   if it_passed
-    "Awesome! #{thing_to_check} works"
+    puts("Awesome! #{method_to_check} works")
   else
-    "#{thing_to_check} doesn't work yet"
+    puts("#{method_to_check} doesn't work yet")
   end
 end
 
 puts "*"*80
 puts "Make each method return the correct value"
+puts "The check method will run and tell you if the answer is correct"
 puts "*"*80
 
-puts check("how_many_dogs", how_many_dogs(dogs) == 6)
-puts check("name_lengths", name_lengths(dogs) == [4, 8, 4, 6, 4, 7])
-puts check("reverse_dog_names", reverse_dog_names(dogs) == ["odiF", "hgielraH", "ilaM", "eixirT", "wonS", "yrotciV"])
-puts check("first_three_dogs_with_each", first_three_dogs_with_each(dogs) == ["Fido", "Harleigh", "Mali"])
-puts check("first_three_dogs_without_each", first_three_dogs_without_each(dogs) == ["Fido", "Harleigh", "Mali"])
-puts check("reverse_case_dog_names", reverse_case_dog_names(dogs) == ["fIDO", "hARLEIGH", "mALI", "tRIXIE", "sNOW", "vICTORY"])
-puts check("sum_of_all_dog_name_lengths", sum_of_all_dog_name_lengths(dogs) == 33)
-puts check("dogs_with_long_names", dogs_with_long_names(dogs) == [false, true, false, true, false, true])
+check("how_many_dogs", how_many_dogs(dogs) == 6 )
+check("name_lengths", name_lengths(dogs) == [4, 8, 4, 6, 4, 7] )
+check("reverse_dog_names", reverse_dog_names(dogs) == ["odiF", "hgielraH", "ilaM", "eixirT", "wonS", "yrotciV"] )
+check("first_three_dogs_with_each", first_three_dogs_with_each(dogs) == ["Fido", "Harleigh", "Mali"])
+check("first_three_dogs_without_each", first_three_dogs_without_each(dogs) == ["Fido", "Harleigh", "Mali"])
+check("reverse_case_dog_names", reverse_case_dog_names(dogs) == ["fIDO", "hARLEIGH", "mALI", "tRIXIE", "sNOW", "vICTORY"])
+check("sum_of_all_dog_name_lengths", sum_of_all_dog_name_lengths(dogs) == 33)
+check("dogs_with_long_names", dogs_with_long_names(dogs) == [false, true, false, true, false, true])
 
