@@ -1,3 +1,5 @@
+require_relative "testing_library"
+
 dogs = ["Fido", "Harleigh", "Mali", "Trixie", "Snow", "Victory"]
 
 def how_many_dogs(dogs)
@@ -30,14 +32,6 @@ end
 
 def dogs_with_long_names(dogs)
 
-end
-
-def check(method_to_check, it_passed)
-  if it_passed
-    puts("Awesome! #{method_to_check} works")
-  else
-    puts("#{method_to_check} doesn't work yet")
-  end
 end
 
 puts "*"*80
