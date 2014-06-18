@@ -3,11 +3,13 @@ def colorize(color_code, string)
 end
 
 def red(string)
-  colorize(31, string)
+  red_color_code = 31
+  colorize(red_color_code, string)
 end
 
 def green(string)
-  colorize(32, string)
+  green_color_code = 32
+  colorize(green_color_code, string)
 end
 
 def check(method_to_check, it_passed)
