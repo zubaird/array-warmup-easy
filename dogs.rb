@@ -1,35 +1,35 @@
 dogs = ["Fido", "Harleigh", "Mali", "Trixie", "Snow", "Victory"]
 
 def how_many_dogs(dogs)
-  dogs
+
 end
 
 def name_lengths(dogs)
-  dogs
+
 end
 
 def reverse_dog_names(dogs)
-  dogs
+
 end
 
 def first_three_dogs_with_each(dogs)
-  dogs
+
 end
 
 def first_three_dogs_without_each(dogs)
-  dogs
+
 end
 
 def reverse_case_dog_names(dogs)
-  dogs
+
 end
 
 def sum_of_all_dog_name_lengths(dogs)
-  0
+
 end
 
 def dogs_with_long_names(dogs)
-  dogs
+  
 end
 
 
